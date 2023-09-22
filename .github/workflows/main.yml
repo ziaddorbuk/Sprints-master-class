@@ -22,4 +22,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/django-book-store-sprints:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/flask-book-store-sprints:latest
